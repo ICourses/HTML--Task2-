@@ -12,7 +12,8 @@
             $(function() {
                 $('#fade').cycle({
                     prev: '#prev',
-                    next: '#next'
+                    next: '#next',
+                    pause: 1
                 });
             });
         </script>
@@ -27,76 +28,241 @@
 		<!-------------->
 		<!-- Contents -->
 		<!-------------->
-        <a id='prev' href='#'>Prev</a>
-        <a id='next' href='#'>Next</a>
+        <div id="slide-border">
 
-        <div id='fade'>
-        <div class="suggestion">
-            <div class="base-info">
-                <div class="div-photo"><img src='images/photo1.png'></div>
-                <div class="div-info">
-                    <div class='name'> Bruno Rodrigues (nickname) </div>
-                    <div class='score'> Elitute score: 5.53 </div>
-                    <div class='title-category'>Educations:</div>
-                    <ul class='content-category'>
-                        <li>B.Sc, Harvard University</li>
-                        <li>MBA, University of Pennsylvania</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="subjects-offered">
-                <div class='title-category'>Subjects offered:</div>
-                <div class='list'><ul class='content-category'>
-                <li>Speaking</li>
-                <li>Subject matter</li>
-                <li>Writing</li>
-            </ul></div>
-                <div class='list'><ul class='content-category'>
-                    <li>Speaking</li>
-                    <li>Subject matter</li>
-                    <li>Writing</li>
-                </ul></div>
-                <div class='list'><ul class='content-category'>
-                    <li>Speaking</li>
-                    <li>Subject matter</li>
-                    <li>Writing</li>
-                </ul></div>
-            </div>
-        </div >
+            <div id="title-suggestions">Suggestions</div>
+            <div id="slide">
+            <div class="navigation-left"><a id='prev' href='#'><img src="images/prev.png"/></a></div>
+            <div id='fade'>
+                <div class="block-from-two-suggestion">
 
-        <div class="suggestion">
-            <div class="base-info">
-                <div class="div-photo"><img src='images/photo2.png'></div>
-                <div class="div-info">
-                    <div class='name'> Erica Krauss (nickname) </div>
-                    <div class='score'> Elitute score: 5.92 </div>
-                    <div class='title-category'>Educations:</div>
-                    <ul class='content-category'>
-                        <li>B.Sc, Harvard University</li>
-                        <li>MBA, University of Pennsylvania</li>
-                    </ul>
+                    <a href="#">
+                    <div class="suggestion">
+                        <div class="base-info">
+                            <div class="div-photo"><img src='images/photo1.png'></div>
+                            <div class="div-info">
+                                <div class='name'> Bruno Rodrigues (nickname) </div>
+                                <div class='score'> Elitute score: 5.53 </div>
+                                <div class='title-category'>Educations:</div>
+                                <ul class='content-category'>
+                                    <li>B.Sc, Harvard University</li>
+                                    <li>MBA, University of Pennsylvania</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="subjects-offered">
+                            <div class='title-category'>Subjects offered:</div>
+                            <div class='list'><ul class='content-category'>
+                            <li>Speaking</li>
+                            <li>Subject matter</li>
+                            <li>Writing</li>
+                        </ul></div>
+                            <div class='list'><ul class='content-category'>
+                                <li>Speaking</li>
+                                <li>Subject matter</li>
+                                <li>Writing</li>
+                            </ul></div>
+                            <div class='list'><ul class='content-category'>
+                                <li>Speaking</li>
+                                <li>Subject matter</li>
+                                <li>Writing</li>
+                            </ul></div>
+                        </div>
+                    </div >
+                    </a>
+
+                    <a href="#">
+                    <div class="suggestion">
+                        <div class="base-info">
+                            <div class="div-photo"><img src='images/photo2.png'></div>
+                            <div class="div-info">
+                                <div class='name'> Erica Krauss (nickname) </div>
+                                <div class='score'> Elitute score: 5.92 </div>
+                                <div class='title-category'>Educations:</div>
+                                <ul class='content-category'>
+                                    <li>B.Sc, Harvard University</li>
+                                    <li>MBA, University of Pennsylvania</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="subjects-offered">
+                            <div class='title-category'>Subjects offered:</div>
+                            <div class='list'><ul class='content-category'>
+                                <li>Speaking</li>
+                                <li>Subject matter</li>
+                                <li>Writing</li>
+                            </ul></div>
+                            <div class='list'><ul class='content-category'>
+                                <li>Speaking</li>
+                                <li>Subject matter</li>
+                                <li>Writing</li>
+                            </ul></div>
+                            <div class='list'><ul class='content-category'>
+                                <li>Speaking</li>
+                                <li>Writing</li>
+                                <li>Subject matter</li>
+                                <li>Writing</li>
+                            </ul></div>
+                        </div>
+                    </div ></a>
                 </div>
+
+                <div class="block-from-two-suggestion">
+
+                    <a href="#">
+                    <div class="suggestion">
+                        <div class="base-info">
+                            <div class="div-photo"><img src='images/photo3.png'></div>
+                            <div class="div-info">
+                                <div class='name'> Erica Krauss (nickname) </div>
+                                <div class='score'> Elitute score: 5.92 </div>
+                                <div class='title-category'>Educations:</div>
+                                <ul class='content-category'>
+                                    <li>B.Sc, Harvard University</li>
+                                    <li>MBA, University of Pennsylvania</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="subjects-offered">
+                            <div class='title-category'>Subjects offered:</div>
+                            <div class='list'><ul class='content-category'>
+                                <li>Speaking</li>
+                                <li>Subject matter</li>
+                                <li>Writing</li>
+                            </ul></div>
+                            <div class='list'><ul class='content-category'>
+                                <li>Speaking</li>
+                                <li>Subject matter</li>
+                                <li>Writing</li>
+                                <li>Writing</li>
+                            </ul></div>
+                            <div class='list'><ul class='content-category'>
+                                <li>Speaking</li>
+                                <li>Subject matter</li>
+                                <li>Writing</li>
+                                <li>Writing</li>
+                            </ul></div>
+                        </div>
+                    </div >
+                    </a>
+
+                    <a href="#">
+                    <div class="suggestion">
+                        <div class="base-info">
+                            <div class="div-photo"><img src='images/photo1.png'></div>
+                            <div class="div-info">
+                                <div class='name'> Bruno Rodrigues (nickname) </div>
+                                <div class='score'> Elitute score: 5.53 </div>
+                                <div class='title-category'>Educations:</div>
+                                <ul class='content-category'>
+                                    <li>B.Sc, Harvard University</li>
+                                    <li>MBA, University of Pennsylvania</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="subjects-offered">
+                            <div class='title-category'>Subjects offered:</div>
+                            <div class='list'><ul class='content-category'>
+                                <li>Speaking</li>
+                                <li>Subject matter</li>
+                                <li>Writing</li>
+                            </ul></div>
+                            <div class='list'><ul class='content-category'>
+                                <li>Speaking</li>
+                                <li>Subject matter</li>
+                                <li>Writing</li>
+                            </ul></div>
+                            <div class='list'><ul class='content-category'>
+                                <li>Speaking</li>
+                                <li>Subject matter</li>
+                                <li>Writing</li>
+                            </ul></div>
+                        </div>
+                    </div ></a>
+                </div>
+
+                <div class="block-from-two-suggestion">
+
+                    <a href="#">
+                    <div class="suggestion">
+                        <div class="base-info">
+                            <div class="div-photo"><img src='images/photo2.png'></div>
+                            <div class="div-info">
+                                <div class='name'> Erica Krauss (nickname) </div>
+                                <div class='score'> Elitute score: 5.92 </div>
+                                <div class='title-category'>Educations:</div>
+                                <ul class='content-category'>
+                                    <li>B.Sc, Harvard University</li>
+                                    <li>MBA, University of Pennsylvania</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="subjects-offered">
+                            <div class='title-category'>Subjects offered:</div>
+                            <div class='list'><ul class='content-category'>
+                                <li>Subject matter</li>
+                                <li>Writing</li>
+                                <li>Speaking</li>
+                                <li>Speaking</li>
+                            </ul></div>
+                            <div class='list'><ul class='content-category'>
+                                <li>Speaking</li>
+                                <li>Subject matter</li>
+                                <li>Writing</li>
+                            </ul></div>
+                            <div class='list'><ul class='content-category'>
+                                <li>Speaking</li>
+                                <li>Subject matter</li>
+                                <li>Writing</li>
+                            </ul></div>
+                        </div>
+                    </div >
+                    </a>
+
+                    <a href="#">
+                    <div class="suggestion">
+                        <div class="base-info">
+                            <div class="div-photo"><img src='images/photo4.png'></div>
+                            <div class="div-info">
+                                <div class='name'> Bruno Rodrigues (nickname) </div>
+                                <div class='score'> Elitute score: 5.53 </div>
+                                <div class='title-category'>Educations:</div>
+                                <ul class='content-category'>
+                                    <li>B.Sc, Harvard University</li>
+                                    <li>MBA, University of Pennsylvania</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="subjects-offered">
+                            <div class='title-category'>Subjects offered:</div>
+                            <div class='list'><ul class='content-category'>
+                                <li>Speaking</li>
+                                <li>Subject matter</li>
+                                <li>Writing</li>
+                                <li>Writing</li>
+                                <li>Writing</li>
+                            </ul></div>
+                            <div class='list'><ul class='content-category'>
+                                <li>Speaking</li>
+                                <li>Subject matter</li>
+                                <li>Writing</li>
+                                <li>Writing</li>
+                            </ul></div>
+                            <div class='list'><ul class='content-category'>
+                                <li>Speaking</li>
+                                <li>Subject matter</li>
+                                <li>Writing</li>
+                                <li>Writing</li>
+                            </ul></div>
+                        </div>
+                    </div ></a>
+                </div>
+            </div> <!--end fade-->
+            <div class="navigation-right"><a id='next' href='#'><img src="images/next.png"/></a></div>
             </div>
-            <div class="subjects-offered">
-                <div class='title-category'>Subjects offered:</div>
-                <div class='list'><ul class='content-category'>
-                    <li>Speaking</li>
-                    <li>Subject matter</li>
-                    <li>Writing</li>
-                </ul></div>
-                <div class='list'><ul class='content-category'>
-                    <li>Speaking</li>
-                    <li>Subject matter</li>
-                    <li>Writing</li>
-                </ul></div>
-                <div class='list'><ul class='content-category'>
-                    <li>Speaking</li>
-                    <li>Subject matter</li>
-                    <li>Writing</li>
-                </ul></div>
-            </div>
-        </div >
+
         </div>
+
 		<main>
 			<article>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.</p>
