@@ -59,7 +59,9 @@ html body {
     padding: 10px;
     margin: 8px;
     display: table-cell;
-    border: 2px solid #FFFFFF;
+    border: 2px solid #e6f8ff;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.7);
+    /*filter: progid:DXImageTransform.Microsoft.DropShadow(color=#333333);*/
 }
 
 .suggestion:hover {
@@ -85,7 +87,7 @@ html body {
     margin-left: 10px;
 }
 
-.base-info, .div-photo, .div-info, .subjects-offered {
+.base-info, .div-photo, .div-info, .subjects-offered, .list{
     vertical-align: top;
 }
 
