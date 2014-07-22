@@ -1,47 +1,59 @@
-@font-face{
+@font-face {
     font-family: TrebuchetMS;
     src: url('../fonts/TrebuchetMS.ttf');
 }
-html body{
+
+html body {
     font-family: TrebuchetMS;
 }
-#slide-border{
+
+#slide-border {
     border: 1px solid #d0d0d0;
     margin: 50px;
     width: 1010px;
 }
-#slide{
+
+#slide {
     position: relative;
 }
-#slide img{
+
+#slide img {
     border: none;
 }
-.navigation-left, .navigation-right{
+
+.navigation-left, .navigation-right {
     position: absolute;
     top: 40%;
 }
-.navigation-left{
+
+.navigation-left {
     left: 20px;
 }
-.navigation-right{
+
+.navigation-right {
     right: 20px;
 }
-#fade{
+
+#fade {
     margin: 0px 10px 10px 55px;
 }
-.block-from-two-suggestion{
+
+.block-from-two-suggestion {
     border-spacing: 15px;
 }
-.block-from-two-suggestion a{
+
+.block-from-two-suggestion a {
     text-decoration: none;
     color: #000;
 }
-#title-suggestions{
+
+#title-suggestions {
     color: #7cbe28;
     font-size: 24px;
     margin: 20px 0px 0px 20px;
 }
-.suggestion{
+
+.suggestion {
     width: 402px;
     background-color: #e6f8ff;
     padding: 10px;
@@ -49,44 +61,55 @@ html body{
     display: table-cell;
     border: 2px solid #FFFFFF;
 }
+
 .suggestion:hover {
     border: 2px solid #66d2f5;
 }
-.div-photo, .div-info, .list{
+
+.div-photo, .div-info, .list {
     display: inline-block;
 }
-.list{
+
+.list {
     width: 30%;
 }
-.div-photo img{
+
+.div-photo img {
     height: 80px;
     width: 80px;
 }
-.div-info{
+
+.div-info {
     vertical-align: top;
     width: 60%;
     margin-left: 10px;
 }
-.base-info, .div-photo, .div-info, .subjects-offered{
+
+.base-info, .div-photo, .div-info, .subjects-offered {
     vertical-align: top;
 }
-.name{
+
+.name {
     font-size: 18px;
     color: #00aedb;
     text-decoration: underline;
 }
-.score{
+
+.score {
     font-size: 14px;
 }
-.title-category, .content-category{
+
+.title-category, .content-category {
     font-size: 13px;
 }
-.title-category{
+
+.title-category {
     margin-top: 5px;
     color: #000;
     font-weight: bold;
 }
-.content-category{
+
+.content-category {
     margin: 0px;
     padding-left: 20px;
     color: #727a81;
